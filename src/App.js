@@ -10,8 +10,8 @@ function App() {
       <BrowserRouter>
         <div className='navigation'>
           <Link to="/">Home</Link>{' '}
-          <Link to="/customers">Customer List</Link>{' '}
-          <Link to="/trainings">Training List</Link>{' '}
+          <Link to="/customers">Customers</Link>{' '}
+          <Link to="/trainings">Trainings</Link>{' '}
         </div>
         <Routes>
           <Route exact path="/" element={<Home />} />
